@@ -4,6 +4,7 @@ const client = new MongoClient(`mongodb+srv://himani:${process.env.MONGO_PASS}@c
   useUnifiedTopology: true,
 });
 
+
 let inventory; let
   counter;
 client.connect((err, cl) => {
