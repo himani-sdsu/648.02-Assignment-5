@@ -1,6 +1,5 @@
 const { MongoClient } = require('mongodb');
 
-
 const client = new MongoClient(`mongodb+srv://himani:${process.env.MONGO_PASS}@cluster0.y7meo.mongodb.net/assignment-4`, {
   useUnifiedTopology: true,
 });
